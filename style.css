@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background-color: skyblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: gold;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.drazen{
+  width: 50%;
+  justify-content: center;
+  border-radius: 50%;
+}
+.Hi{
+  justify-content: top right;
+  font-size: 15px;
+  font-family:cursive;
+}
+.skills{
+  margin-left:25%;
+  padding:1px 16px;
+  height:1000px;
+}
+
+
+.skills {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.skill{
+  
+  width: 100%;
+  font-size: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 1px;
+  text-decoration-color: none;
+
+}
+.container {
+  width: 70%;
+  height: 4%;
+  background-color:gray;
+  justify-content:center;
+
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  color: white; 
+  justify-content: center;
+  margin-top: -15px;
+  margin-bottom: 1px;
+}
+
+     
+.html {width: 70%; background-color: blue;
+    height: 26%} 
+.js {width: 70%; background-color: gray;
+    height: 25%}
+.css{width: 70%; background-color: brown;
+      height:26% } 
+.php {width: 70%; background-color: gray;
+      height:25% 
+    } 
+
+
+
+
+.skillset{
+font-size: 15px;
+font-family: cursive;
+}
+
+.project{
+  width: 30%%;
+  justify-content:center;
+  position:center;
+  padding-right: -60px
+
+}
+.final{
+  font-size: 13px;
+  font-family:bold;
+}
+
+.contact{
+	padding-bottom: 50px;
+}
